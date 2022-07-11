@@ -1,5 +1,6 @@
 #!name=百度净化
 #!desc=百度网页跳转or去广告
+#!openUrl=https://github.com/Keywos/loon-shadowrocket/tree/main/loon
 #!author=Github-keywos
 #!homepage=https://github.com/Keywos/loon-shadowrocket
 [Rewrite]
