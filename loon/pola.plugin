@@ -1,0 +1,8 @@
+#!name=pola
+#!desc=polaxiutu vip
+#!author=Github-keywos
+#!homepage=https://github.com/Keywos/loon-shadowrocket
+[Script]
+http-response ^https:\/\/api\.polaxiong\.com\/v1\/payments\/appleiap\/receipts\/confirmation script-path=https://raw.fastgit.org/NobyDa/Script/master/Surge/JS/Polarr.js, requires-body=true, binary-body-mode=true, timeout=10, enabled=false, tag=pola
+[MITM]
+hostname = api.polaxiong.com
