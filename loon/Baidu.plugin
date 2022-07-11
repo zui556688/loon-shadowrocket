@@ -1,0 +1,12 @@
+#!name=百度净化
+#!desc=百度网页跳转or去广告
+#!author=Github-keywos
+#!homepage=https://github.com/Keywos/loon-shadowrocket
+[Rewrite]
+www.baidu.com(?!.*?(\.(css|js|jpeg|jpg|png|php|gif|ico|mp3|mp4|svg|tff|PNG|woff|woff2|m3u8)))  m.baidu.com 302
+[Script]
+http-response ^https?:\/\/(www|m)\.baidu\.com(\/s\?word.*|\/from.*?\/s\?word.*|\/from.*?word=.*) script-path=https://limbopro.com/Adguard/surge_baidu.js, requires-body=true, binary-body-mode=true, timeout=10, tag=搜索结果广告(baidu)
+http-response ^https?:\/\/(www|m)\.baidu\.com(/$|\/\?ref.*)(?!.*?(\.(css|js|jpeg|jpg|png|php|gif|ico|mp3|mp4|svg|tff|PNG|woff|woff2|m3u8))) script-path=https://limbopro.com/Adguard/surge_baidu.index.js, requires-body=true, binary-body-mode=true, timeout=10, tag=搜索首页广告(baidu)
+http-response ^https?:\/\/(zhidao)\.baidu\.com\/(question|index|\?fr|\?word) script-path=https://limbopro.com/Adguard/surge_baidu.zhidao.js, requires-body=true, binary-body-mode=true, timeout=10, tag=知道搜索广告(baidu)
+[Mitm]
+hostname = www.baidu.com, m.baidu.com, zhidao.baidu.com
