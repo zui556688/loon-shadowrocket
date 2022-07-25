@@ -3,7 +3,7 @@
 #仅仅适用于此规则https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt
 #!openUrl=https://github.com/Keywos/loon-shadowrocket/tree/main/loon
 #!author=anti-ad-surge2.txt
-#!homepage=hhttps://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt
+#!homepage=https://github.com/privacy-protection-tools/anti-AD
 [Rule]
 DOMAIN,fclick.baidu.com,DIRECT
 DOMAIN,ada.baidu.com,DIRECT
