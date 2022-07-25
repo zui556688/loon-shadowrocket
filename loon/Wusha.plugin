@@ -1,9 +1,9 @@
-#!name=纠正
+#!name=误杀
 #!desc=去广告rule误杀纠正2022-7-18
 #仅仅适用于此规则https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt
 #!openUrl=https://github.com/Keywos/loon-shadowrocket/tree/main/loon
-#!author=Gitclone-keywos
-#!homepage=https://gitclone.com/gogs/Keywos/loon-shadowrocket/src/main/loon
+#!author=anti-ad-surge2.txt
+#!homepage=hhttps://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge2.txt
 [Rule]
 DOMAIN,fclick.baidu.com,DIRECT
 DOMAIN,ada.baidu.com,DIRECT
