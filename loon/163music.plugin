@@ -1,6 +1,7 @@
 #!name=网易云AD
 #!desc=网易云去广告2022.12.8更新
 #!author=Github-keywos
+#!homepage=https://github.com/Keywos/loon-shadowrocket/blob/main/loon/163music.plugin
 [Rewrite]
 ^https?:\/\/p\.du\.163\.com\/ad\/ - reject
 ^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
