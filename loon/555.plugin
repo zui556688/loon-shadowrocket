@@ -4,9 +4,8 @@
 [Rewrite]
 
 #横幅广告
-^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/getAdvertInfo - reject
-#555影视 图片资源
+^https:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) - reject
 ^https:\/\/vpic\.cms\.qq\.com\/nj_vpic - reject
 
 [MITM]
-hostname = %APPEND% vip7.fzwdyy.cn:8083, vpic.cms.qq.com
+hostname = %APPEND% vip7.fzwdyy.cn, vpic.cms.qq.com
